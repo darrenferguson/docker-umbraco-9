@@ -24,6 +24,6 @@ RUN dpkg -i packages-microsoft-prod.deb
 RUN rm packages-microsoft-prod.deb
 RUN apt-get update
 RUN apt-get install -y dotnet-sdk-5.0
-RUN dotnet new -i Umbraco.Templates::9.0.0-rc001
+RUN dotnet new -i Umbraco.Templates
 RUN dotnet new umbraco -n Umb
 ENTRYPOINT /app/startup.sh
