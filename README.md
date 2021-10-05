@@ -8,7 +8,7 @@ This runs with linux containers.
 
 ## Running
 
-- docker build
+- docker build .
 - docker compose up -d
 
 Wait for SQL server and Umbraco to start
